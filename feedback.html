@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel=stylesheet href=restaurant.css>
+<title>Wildcat Restaurant :: Feedback</title>
+ <link rel= "icon" href= "wildcat.jpg">
+<meta charset="utf-8">
+</head>
+<body>
+<div id="wrapperfeedback">
+<header>
+ <h1 style="text-align:left"><a href="home.html">Feedback</a></h1>
+</header>
+<nav> 
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li> 
+            <li><a href="menu.html">Menu</a></li> 
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <div id="feedbackimg">
+    </div>
+
+ <form method="get" style="padding-left:50px">
+
+ <label><br><br>Name<br></label> <input type="text" maxlength="30" name="username" required="required" size="63"><br><br> 
+ <label>Email<br></label> <input type="email" name="userEmail" id="userEmail" required="required" size="63"><br><br>
+
+
+ <label>How was your experience?<br></label>
+ <textarea name="reason" id="reason" cols="59" rows="5" required="required"></textarea>
+ <br><br>
+
+
+
+ <label>What can we do to improve your experience next time?<br></label>
+ <textarea name="reasonlike" id="reasonlike" cols="59" rows="5" required="required"></textarea>
+ <br><br>
+
+ <label>Please indicate how much do you like our restaurant below<br><br></label> 
+ <input type="range" min="1" max="100" name="likemeter" id="likemeter"><br><br>
+ 
+<input type="submit" value="Submit"> <input type="reset"> <br><br>
+
+</form>
+<footer>
+        Copyright &copy; 2021 The Wildcat Restaurant<br>
+         <a href=mailto:groupsix@arizona.com>groupsix@arizona.com</a>
+</footer>
+</div>
+</body>
+</html>
